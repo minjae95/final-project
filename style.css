@@ -41,6 +41,7 @@ li {
 }
 header {
   background-color: darkgoldenrod;
+  border-radius: 10px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -53,7 +54,7 @@ header {
 }
 .modal-content {
   width: 50%;
-  height: 500px;
+  height: 400px;
   background-color: white;
   margin: 300px 350px;
   top: 0;
@@ -79,8 +80,9 @@ header {
 }
 .formBtn {
   font: 3 1rem "quicksand", sans-serif;
-  width: 42%;
-  padding: 1rem 2rem;
+  width: 20%;
+  padding: 1% 4%;
+  margin: 1rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -265,6 +267,7 @@ li:hover .dropdown-menu {
   padding-left: 25%;
 }
 .eofyImg {
+  border-radius: 10px;
   width: 51vw;
   height: 60vh;
   margin: 0px;
@@ -301,9 +304,16 @@ li:hover .dropdown-menu {
 }
 .section-title a {
   background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
 }
 .popular-categories:hover {
   background-color: lightgrey;
+}
+.specialSale {
+  text-align: center;
+  font-size: 25px;
+  font-family: "quicksand", sans-serif;
 }
 .instruments-list {
   display: grid;
@@ -324,11 +334,12 @@ li:hover .dropdown-menu {
 .cart-btn {
   font-size: 15px;
   padding: 2px 10px;
+  border-radius: 10px;
 }
 
 .add-to-cart:hover {
   color: rgba(0, 0, 0, 0.1);
-  font-size: 20px;
+  font-size: 19px;
 }
 .modal-container {
   display: none;

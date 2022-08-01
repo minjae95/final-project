@@ -8,7 +8,8 @@ document.querySelector("#close").addEventListener("click", function () {
 });
 
 document.querySelector(".signin-bar").addEventListener("click", function () {
-  document.querySelector(".modal-content").style.display = "block";
+  document.querySelector(".mobileModal").style.display = "block";
+  document.querySelector(".mobileCreate").style.display = "none";
 });
 
 document.querySelector("#accountCreate").addEventListener("click", function () {
@@ -21,12 +22,16 @@ document.querySelector("#haveAccount").addEventListener("click", function () {
   document.querySelector("#formLogin").style.display = "block";
 });
 
+document.querySelector("#formClose").addEventListener("click", function () {
+  document.querySelector(".mobileModal").style.display = "none";
+});
+
 document.querySelector("#closeBtn").addEventListener("click", function () {
   document.querySelector(".modal-content").style.display = "none";
 });
 
-document.querySelector(".close-btn").addEventListener("click", function () {
-  document.querySelector(".modal-content").style.display = "none";
+document.querySelector(".search-btn").addEventListener("click", function () {
+  document.querySelector(".search-modal-content").stlye.display = "block";
 });
 
 document.querySelector(".search-btn").addEventListener("click", function () {
